@@ -11,6 +11,17 @@ It is recommanded that you read and understand the scripts before running them
 
 ## Explanation of each script
 
+### zshrc_example
+
+not a script but an example .zshrc that I consider sane defaults
+
+zsh has the reputation to be very powerful but a pain to configure, with this you
+can just use it as a drop in replacement for bash and it should work right and feel
+right right away, main differences are like vi-like keybindings and autocompletion
+is a bit different than bash (way better)
+
+you may wanna customize the PS1 variable and add your own aliases
+
 ### addtorrent.sh
 
 a command line script to add a torrent to a remote Transmission server over HTTP
