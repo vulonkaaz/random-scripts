@@ -1,10 +1,10 @@
-# Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd beep extendedglob nomatch
+# start command with a space to prevent it from saving to histfile :
+setopt HIST_IGNORE_SPACE
 bindkey -v
-# End of lines configured by zsh-newuser-install
 autoload -Uz compinit promptinit
 compinit
 promptinit
