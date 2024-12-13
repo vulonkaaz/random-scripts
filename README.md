@@ -71,3 +71,7 @@ replace xclip with wl-copy on wayland
 
 select a song or an album from your music library and play it with mpd, one of my
 favourite scripts
+
+### intclock.sh
+
+show the hour in multiple timezones as well as the calendar
