@@ -15,6 +15,7 @@ zstyle ':completion:*' menu select
 bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
 
+export GTK_USE_PORTAL=1
 export EDITOR=nvim
 # aliases
 alias v="nvim"
