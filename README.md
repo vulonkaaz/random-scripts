@@ -75,3 +75,11 @@ favourite scripts
 ### intclock.sh
 
 show the hour in multiple timezones as well as the calendar
+
+### plcalc.c
+
+playlist calculator, calculate the total length of a playlist
+
+you input values such as 42:26 and this program will add them together
+
+compile it with `cc -o plcalc plcalc.c`
